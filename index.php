@@ -5,12 +5,14 @@
     <title>Exercice 4</title>
   </head>
   <body>
-    <?php
+    <p>
+      <?php
       $string = 'Ceci est une chaîne de caractère';
       $int = 5;
       $float = 5.3;
       $boolean = true;
       echo $string . ' , ' . var_dump($int) .  $float . ' , ' . $boolean;
-    ?>
+      ?>
+    </p>
   </body>
   </html>
