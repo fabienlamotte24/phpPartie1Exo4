@@ -10,5 +10,7 @@
       $int = 5;
       $float = 5.3;
       $boolean = true;
-      echo $string . ' !<br />' . $int . ' !<br />' . $float . ' !<br />' . $boolean . ' !';
+      echo $string . ' , ' . var_dump($int) .  $float . ' , ' . $boolean;
     ?>
+  </body>
+  </html>
